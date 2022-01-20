@@ -31,13 +31,10 @@ for _symbol in  range(1, nr_numbers + 1):
 for _pass in range(1, nr_letters + 1):
   index = random.randint(0,25)
   selectedLetter += letters[_pass]
-print(selectedLetter)
-print(selectedLetter + selectednumber + selectedSymbol)
 
 indexData = [selectedLetter, selectednumber, selectedSymbol]
 #indexArray = random.sample(range(1, 3),3)
 indexOfData = random.sample(range(0,3), 3)
 for indexOfRandom in indexOfData:
-  print(indexOfData)
   password += indexData[indexOfRandom]
 print(password)
